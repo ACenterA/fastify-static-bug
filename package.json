@@ -1,7 +1,11 @@
 {
+  "scripts": {
+    "dev": "ts-node server.ts"
+  },
   "dependencies": {
     "fastify": "^3.25.3",
     "fastify-etag": "^2.1.0",
-    "fastify-static": "^4.5.0"
+    "fastify-static": "^4.5.0",
+    "ts-node": "^10.4.0"
   }
 }
